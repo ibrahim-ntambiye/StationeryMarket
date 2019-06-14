@@ -9,8 +9,6 @@ using Stationery;
 
 namespace StationeryWebApp.Controllers
 {
-    
-
     public class CustomersController : Controller
     {
         IStationeryServices service;
@@ -52,6 +50,14 @@ namespace StationeryWebApp.Controllers
             }
             return View("UpdateCustomerDetails");
         }
+
+        // GET: /Account/Login
+        [AllowAnonymous]
+        public ActionResult Login()
+        {
+            return View();
+        }
+
 
         [HttpGet]
         public ActionResult Create()

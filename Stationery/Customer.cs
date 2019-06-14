@@ -38,7 +38,6 @@ namespace Stationery
         [DataType(DataType.Password)]
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter a valid Password.")]
         public string Password { get; set; }
-       
-
+ 
     }
 }
