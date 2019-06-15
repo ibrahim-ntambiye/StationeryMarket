@@ -19,7 +19,7 @@ namespace StationeryService
          OrdersPerCustomerDto OrdersPerCustomer(int customerId);
          void DeleteCustomer(int customerId);
          Customer UpdateCustomerInformation(CustomerDto customerDto);
-         Customer Login(string firstName, string lastName);
+         Customer Login(string username, string password);
          Customer GetCustomer(int customerId);
 
         //Marker Services

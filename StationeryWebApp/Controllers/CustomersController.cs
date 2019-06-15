@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using StationeryService;
 using Stationery;
-
+using StationeryWebApp.Models;
 
 namespace StationeryWebApp.Controllers
 {
@@ -53,11 +53,23 @@ namespace StationeryWebApp.Controllers
 
         // GET: /Account/Login
         [AllowAnonymous]
+        [HttpGet]
         public ActionResult Login()
         {
             return View();
         }
-
+        [HttpPost]
+        public ActionResult Login(LoginViewModel loginModel )
+        {
+            var customer = service.Login(loginModel.Username, loginModel.Password);
+            if (customer != null)
+            {
+                Session["Username"] = customer.Username;
+               var username = (string)(Session["Username"]);
+            }
+            
+            return View();
+        }
 
         [HttpGet]
         public ActionResult Create()

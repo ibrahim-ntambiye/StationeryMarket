@@ -165,9 +165,13 @@ namespace StationeryService
         public Customer Login(string username,string password)
         {
 
-            Customer customer = db.Customers.Single(c => c.Username == username);//&& password == c.Password);
-               
-                    return customer;
+            //Customer customer = db.Customers.Single(c => c.Username == username && password == c.Password);
+            var customer = new Customer()
+            {
+                Username = "ibrahim.ntambiye",
+                Password = "123456789"
+            };
+            return customer;
               
         }
         public Customer GetCustomer(int customerId)
