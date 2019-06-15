@@ -295,7 +295,7 @@ namespace StationeryServiceTests
         public void AddOrder_AddsOrderToTheDataBase_WhenCalledWithOrderDtoObject()
         {
             
-            int orderId = service.AddOrder (new Order()
+            int? orderId = service.AddOrder (new Order()
             {
                 Customer =  new Customer()
                 {

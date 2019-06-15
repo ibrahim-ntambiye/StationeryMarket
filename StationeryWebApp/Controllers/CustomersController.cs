@@ -66,6 +66,7 @@ namespace StationeryWebApp.Controllers
             {
                 Session["Username"] = customer.Username;
                var username = (string)(Session["Username"]);
+
             }
             
             return View();

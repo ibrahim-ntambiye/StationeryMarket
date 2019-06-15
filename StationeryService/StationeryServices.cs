@@ -37,15 +37,7 @@ namespace StationeryService
 
         public int AddMarker(Marker marker)
         {
-            //Marker marker = new Marker
-
-            //{
-            //    Brand = markerDto.Brand,
-            //    Colour = markerDto.Colour,
-            //    MarkerId = markerDto.MarkerId,
-            //    Permanent = markerDto.Permanent,
-            //    Price = markerDto.Price
-            //};
+            
 
             db.Markers.Add(marker);
             db.SaveChanges();
@@ -65,14 +57,7 @@ namespace StationeryService
 
         public int AddOrder(Order order)
         {
-            //Order order = new Order
-            //{
-            //    OrderId = orderDto.OrderId,
-            //    Customer = orderDto.Customer,
-            //    CustomerId = orderDto.CustomerId,
-            //    Date = orderDto.Date,
-            //    MarkerId = orderDto.MarkerId
-            //};
+            
             db.Orders.Add(order);
             db.SaveChanges();
             return order.OrderId;
@@ -105,7 +90,7 @@ namespace StationeryService
 
         public OrdersPerCustomerDto OrdersPerCustomer(int customerId)
         {
-            
+            List<Order> list = new List<Order>();
             var customer = db.Customers.Where(c => c.CustomerId == customerId)
                 .Select(c => new OrdersPerCustomerDto
             {
@@ -115,10 +100,19 @@ namespace StationeryService
                              .Select(o => o.ListOfMarkers)
                              .Select(p => p.DefaultIfEmpty()
                              .Sum(o => o.Price)).DefaultIfEmpty()
-                             .Sum()
+                             .Sum(),
             }
-
+                
            ).First();
+
+            //if (customer.OrderList == null)
+            //{
+            //    customer.OrderList = list.Add(new Order()
+            //    {
+            //        OrderId = 0
+
+            //    });
+            //}
 
             return customer;
         }
@@ -144,6 +138,7 @@ namespace StationeryService
                     customerDb.Password = customerDto.Password;
                     customerDb.Username =
                         string.Format("{0}" + "." + "{1}", customerDto.FirstName, customerDto.LastName).ToLower();
+                    db.SaveChanges();
                     return customerDb;
 
                 }
@@ -155,11 +150,12 @@ namespace StationeryService
                         LastName = "CustomerId is invalid. FirstName update has failed",
                         Password = "CustomerId is invalid. Password update has failed",
                     };
+                    
                     return nullCustomerResult;
 
                 }
             }
-            db.SaveChanges();
+            
         }
 
         public Customer Login(string username,string password)
@@ -179,6 +175,7 @@ namespace StationeryService
             Customer customer = db.Customers.Find(customerId);
             return customer;
         }
+
 
 
     }
