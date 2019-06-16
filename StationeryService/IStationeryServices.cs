@@ -18,7 +18,7 @@ namespace StationeryService
          List<Customer> GetAllCustomers();
          OrdersPerCustomerDto OrdersPerCustomer(int customerId);
          void DeleteCustomer(int customerId);
-         Customer UpdateCustomerInformation(CustomerDto customerDto);
+         Customer UpdateCustomerInformation(Customer customer);
          Customer Login(string username, string password);
          Customer GetCustomer(int customerId);
 

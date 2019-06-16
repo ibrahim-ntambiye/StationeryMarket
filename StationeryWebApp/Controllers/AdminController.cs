@@ -51,6 +51,13 @@ namespace StationeryWebApp.Controllers
             }
             return Content("You don't have admin permissions to access this function");
         }
+  
+        public ActionResult AdminUpdate(int id)
+        {
+            Customer customer = service.GetCustomer(id);
+            return View("UpdateCustomerInformation", customer);
+          
+        }
 
         [HttpPost]
         public ActionResult CustomerSearch(int customerId)

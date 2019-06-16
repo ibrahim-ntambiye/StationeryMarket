@@ -76,6 +76,10 @@
     <Compile Include="Migrations\201906131043364_AddingErrorMessagesToCustomer.Designer.cs">
       <DependentUpon>201906131043364_AddingErrorMessagesToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906161014106_Complete.cs" />
+    <Compile Include="Migrations\201906161014106_Complete.Designer.cs">
+      <DependentUpon>201906161014106_Complete.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="StationeryDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -111,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906131043364_AddingErrorMessagesToCustomer.resx">
       <DependentUpon>201906131043364_AddingErrorMessagesToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906161014106_Complete.resx">
+      <DependentUpon>201906161014106_Complete.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

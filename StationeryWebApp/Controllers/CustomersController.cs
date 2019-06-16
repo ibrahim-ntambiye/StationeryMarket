@@ -39,17 +39,17 @@ namespace StationeryWebApp.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult UpdateCustomerDetails(CustomerDto customerUpdates)
-        {
-          Customer customerInformationUpdates =  service.UpdateCustomerInformation(customerUpdates);
-            if (customerInformationUpdates != null)
-            {
-               // return Content("Customer Information Successfully Updated");
-                return View("NewCustomerDetails", customerInformationUpdates);
-            }
-            return View("UpdateCustomerDetails");
-        }
+        //[HttpPost]
+        //public ActionResult UpdateCustomerDetails(CustomerDto customerUpdates)
+        //{
+        //  Customer customerInformationUpdates =  service.UpdateCustomerInformation(customerUpdates);
+        //    if (customerInformationUpdates != null)
+        //    {
+        //       // return Content("Customer Information Successfully Updated");
+        //        return View("NewCustomerDetails", customerInformationUpdates);
+        //    }
+        //    return View("UpdateCustomerDetails");
+        //}
 
         // GET: /Account/Login
         [AllowAnonymous]
@@ -66,10 +66,11 @@ namespace StationeryWebApp.Controllers
                 return View();
             }
                 var customer = service.Login(loginModel.Username, loginModel.Password);
-                if (customer != null)
+                if (customer.Username != null)
                 {
                     Session["Username"] = customer.Username;
                     Session["Admin"] = customer.IsAdmin;
+                Session["CustomerId"] = customer.CustomerId;
                 }
             
                 return RedirectToAction("Index","Home");
@@ -96,11 +97,20 @@ namespace StationeryWebApp.Controllers
                 return View("Error");
             }
         }
-
-        // GET: Customers/Edit/5
-        public ActionResult UpdateCustomerInformation(int id)
+        //Get
+        public ActionResult UpdateCustomerInformation()
         {
-            return View();
+            Customer customer = service.GetCustomer((int)Session["CustomerId"]);
+
+            return View("UpdateCustomerInformation",customer);
+        }
+
+        [HttpPost]
+        public ActionResult UpdateCustomerInformation(Customer customerUpdates)
+        {
+            Customer customerUpdated = service.UpdateCustomerInformation(customerUpdates);
+            customerUpdated.Password = "*********";
+            return View("CustomerInformationUpdated", customerUpdated);
         }
 
         // POST: Customers/Edit/5

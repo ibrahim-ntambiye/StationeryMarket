@@ -126,18 +126,19 @@ namespace StationeryService
                 
         }
 
-        public Customer UpdateCustomerInformation(CustomerDto customerDto)
+        public Customer UpdateCustomerInformation(Customer customer)
         {
 
-            Customer customerDb = db.Customers.Find(customerDto.CustomerId);
+            Customer customerDb = db.Customers.Find(customer.CustomerId);
             {
                 if (customerDb != null)
                 {
-                    customerDb.FirstName = customerDto.FirstName;
-                    customerDb.LastName = customerDto.LastName;
-                    customerDb.Password = customerDto.Password;
+                    customerDb.IsAdmin = customer.IsAdmin;
+                    customerDb.FirstName = customer.FirstName;
+                    customerDb.LastName = customer.LastName;
+                    customerDb.Password = customer.Password;
                     customerDb.Username =
-                        string.Format("{0}" + "." + "{1}", customerDto.FirstName, customerDto.LastName).ToLower();
+                        string.Format("{0}" + "." + "{1}", customer.FirstName, customer.LastName).ToLower();
                     db.SaveChanges();
                     return customerDb;
 
@@ -161,15 +162,20 @@ namespace StationeryService
         public Customer Login(string username,string password)
         {
 
-            //Customer customer = db.Customers.Single(c => c.Username == username && password == c.Password);
-            var customer = new Customer()
+            try
             {
-                Username = "ibrahim.ntambiye",
-                Password = "123456789",
-                IsAdmin = false
-            };
-            return customer;
-              
+                var customer = db.Customers.Single(c => c.Username == username && password == c.Password);
+
+                //if (customer != null)
+                //{
+                return customer;
+            }
+            catch
+            {
+                var customerNotFound = new Customer();
+
+                return customerNotFound;
+            }
         }
         public Customer GetCustomer(int customerId)
         {
