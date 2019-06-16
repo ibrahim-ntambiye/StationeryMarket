@@ -35,16 +35,18 @@ namespace StationeryService
            return customer.CustomerId;
         }
 
-        public int AddMarker(Marker marker)
+        public Marker AddMarker(Marker marker)
         {
-            
-
             db.Markers.Add(marker);
             db.SaveChanges();
-            return marker.MarkerId;
+            return marker;
             
         }
-
+        public Marker ViewMarker(int markerId)
+        {
+            Marker marker = db.Markers.Find(markerId);
+            return marker;
+        }
         
 
         public void DeleteMarker(int markerId)
@@ -52,6 +54,11 @@ namespace StationeryService
             Marker marker = db.Markers.Find(markerId);
             db.Markers.Remove(marker);
             db.SaveChanges();
+        }
+        public List<Marker> GetAllMarkers()
+        {
+           List<Marker> markers =   db.Markers.ToList();
+            return markers;
         }
 
 

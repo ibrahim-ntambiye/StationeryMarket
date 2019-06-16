@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections;
-
-
+using System.IO;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Stationery
 {
@@ -20,6 +20,7 @@ namespace Stationery
         [MaxLength(30)]
         public string Brand { get; set; }
         public bool Permanent { get; set; }
+        public string ImageFileName { get; set; }
         public ICollection<Order> Orders { get; set; }
         public decimal Price { get; set; }
     }

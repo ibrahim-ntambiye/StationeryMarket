@@ -1,7 +1,12 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿@model List<Stationery.Marker>
+
+@{
+    ViewBag.Title = "Index";
 }
 
+<h2>Index</h2>
+
+<div class="row">
     <div class="jumbotron">
         <h1>No.1 Stationery Supplier</h1>
         <p class="lead">Welcome to Stationery Market. Offering office supplies, technology products and services, facilities and break room supplies, furniture and a wide range of other product categories, with Staples you’ll find every product your business needs to succeed.</p>
@@ -9,8 +14,14 @@
         <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
-<div class="row">
-    <div class="col-md-4">
-       
-    </div>
+    @foreach (var item in Model)
+    {
+
+<div class="col-sm-3">
+    @Html.DisplayFor(modelItem => item.Price)
+    <a href="/Markers/ViewSingleMarkerDetails?markerId=@item.MarkerId"> <img class="menu-image img-responsive" src="~/Markers/MarkerImages/@item.ImageFileName" /></a>
+    @Html.DisplayFor(modelItem => item.Brand)
+    @Html.DisplayFor(modelItem => item.Colour)
+</div>
+    }
 </div>

@@ -23,8 +23,10 @@ namespace StationeryService
          Customer GetCustomer(int customerId);
 
         //Marker Services
-         int AddMarker(Marker marker);
+         Marker AddMarker(Marker marker);
          void DeleteMarker(int markerId);
+        List<Marker> GetAllMarkers();
+        Marker ViewMarker(int markerId);
 
     }
 }
