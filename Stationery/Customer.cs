@@ -27,6 +27,7 @@ namespace Stationery
         [RegularExpression("[MF]")]
         [MaxLength(1)]
         public string Gender { get; set; }
+        public bool IsAdmin { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter a valid Username.")]
         [MaxLength(30, ErrorMessage = "Username should not exceed 60 characters.")]

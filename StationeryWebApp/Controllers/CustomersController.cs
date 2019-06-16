@@ -59,17 +59,21 @@ namespace StationeryWebApp.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Login(LoginViewModel loginModel )
+        public ActionResult Login(LoginViewModel loginModel)
         {
-            var customer = service.Login(loginModel.Username, loginModel.Password);
-            if (customer != null)
+            if (!ModelState.IsValid)
             {
-                Session["Username"] = customer.Username;
-               var username = (string)(Session["Username"]);
-
+                return View();
             }
+                var customer = service.Login(loginModel.Username, loginModel.Password);
+                if (customer != null)
+                {
+                    Session["Username"] = customer.Username;
+                    Session["Admin"] = customer.IsAdmin;
+                }
             
-            return View();
+                return RedirectToAction("Index","Home");
+            
         }
 
         [HttpGet]
@@ -85,11 +89,11 @@ namespace StationeryWebApp.Controllers
             {
                 service.AddCustomer(customer);
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Login");
             }
             catch
             {
-                return View("Index");
+                return View("Error");
             }
         }
 
@@ -134,6 +138,12 @@ namespace StationeryWebApp.Controllers
             {
                 return View();
             }
+        }
+        [HttpGet]
+        public ActionResult Logout()
+        {
+            Session["Username"] = null;
+            return RedirectToAction("Index", "Home");
         }
     }
 }

@@ -49,10 +49,14 @@ namespace StationeryWebApp.Models
     public class LoginViewModel
     {
         [Required]
+        //[RegularExpression("^[a-zA-Z. '])+$")]
         [Display(Name = "Username")]
         public string Username { get; set; }
 
-        [Required]
+        [MinLength(8, ErrorMessage = "Password must be atleast 8 characters long")]
+        [MaxLength(30, ErrorMessage = "Password should not exceed 30 characters.")]
+       
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter a valid Password.")]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }

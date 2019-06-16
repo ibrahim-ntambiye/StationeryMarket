@@ -165,7 +165,8 @@ namespace StationeryService
             var customer = new Customer()
             {
                 Username = "ibrahim.ntambiye",
-                Password = "123456789"
+                Password = "123456789",
+                IsAdmin = false
             };
             return customer;
               

@@ -22,14 +22,28 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Update Your Details", "UpdateCustomerDetails", "Customers")</li>
-                    <li>@Html.ActionLink("All Customers", "GetAllCustomers", "Admin")</li>
-                    <li>@Html.ActionLink("Customer Order Details", "GetCustomerOrderDetails", "Admin")</li>
-                    <li>@Html.ActionLink("Admin Dash-board", "Index", "Admin")</li>
                     @*<li>@Html.ActionLink("Delete Customer", "DeleteCustomer", "Admin")</li>*@
+                    @if (Session["Username"] == null)
+                    {
+                        <li class="navbar-right">@Html.ActionLink("Register", "create", "Customers")</li>
+                        <li class="navbar-right">@Html.ActionLink("Login", "login", "Customers")</li>
 
-                    <li class="navbar-right">@Html.ActionLink("Register", "create", "Customers")</li>
-                    <li class="navbar-right">@Html.ActionLink("Login", "login", "Customers")</li>
+                    }
+                    else
+                    {
+                        <li class="navbar-right">@Html.ActionLink("Logout", "Logout", "Customers")</li>
+                        <li>@Html.ActionLink("Update Your Details", "UpdateCustomerDetails", "Customers")</li>
+
+                        if ((bool)Session["Admin"])
+                        {
+                            <li>@Html.ActionLink("All Customers", "GetAllCustomers", "Admin")</li>
+                            <li>@Html.ActionLink("Customer Order Details", "GetCustomerOrderDetails", "Admin")</li>
+                            <li>@Html.ActionLink("Admin Dash-board", "Index", "Admin")</li>
+                        }
+
+                    }
+
+
                 </ul>
             </div>
         </div>

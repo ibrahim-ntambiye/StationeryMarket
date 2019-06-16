@@ -20,13 +20,20 @@ namespace StationeryWebApp.Controllers
         // GET View method
         public ActionResult Index()
         {
-           
-            return View();
+            if ((bool?)Session["Admin"] == true && Session["Username"] != null)
+            {
+                return View();
+            }
+            return Content("You don't have admin permissions to access this function");
         }
         // GET  customer order details View method
         public ActionResult GetCustomerOrderDetails()
         {
-            return View("GetCustomerOrderDetails");
+            if ((bool?)Session["Admin"] == true && Session["Username"] != null)
+            {
+                return View("GetCustomerOrderDetails");
+            }
+            return Content("You don't have admin permissions to access this function");
         }
 
         [HttpPost]
@@ -35,39 +42,54 @@ namespace StationeryWebApp.Controllers
             OrdersPerCustomerDto informationResult = service.OrdersPerCustomer(customerId);
             return RedirectToAction("CustomerOrderDetails", informationResult );
         }
-
+        [HttpPost]
         public ActionResult CustomerOrderDetails(OrdersPerCustomerDto informationResults)
         {
-            return View("CustomerOrderDetails", informationResults);
+            if ((bool?)Session["Admin"] == true && Session["Username"] != null)
+            {
+                return View("CustomerOrderDetails", informationResults);
+            }
+            return Content("You don't have admin permissions to access this function");
         }
 
         [HttpPost]
         public ActionResult CustomerSearch(int customerId)
         {
-            Customer customer = service.GetCustomer(customerId);
-            if (customer != null)
-            {
-                return RedirectToAction("SearchResults", customer);
-            }
+            
+                Customer customer = service.GetCustomer(customerId);
+                if (customer != null)
+                {
+                    return View("CustomerSearch", customer);
+                }
 
-            return Content("Customer Doesn't exist in the database");
-        }
 
-        public ActionResult SearchResults(Customer customer)
-        {
-            return View("CustomerSearch", customer);
+                return Content("Customer Doesn't exist in the database");
+           
         }
+        
+        //public ActionResult SearchResults(Customer customer)
+        //{
+        //    return View("CustomerSearch", customer);
+        //}
         // GET: AllCustomers
         public ActionResult GetAllCustomers()
         {
-            List<Customer> allCustomers = service.GetAllCustomers();
+            if ((bool?)Session["Admin"] == true && Session["Username"] != null)
+            {
+                List<Customer> allCustomers = service.GetAllCustomers();
 
-            return View("GetAllCustomers", allCustomers);
+                return View("GetAllCustomers", allCustomers);
+            }
+            return Content("You don't have admin permissions to access this function");
         }
         //Get: Deletecustomer
         public ActionResult DeleteCustomer()
         {
-            return View();
+            if ((bool?)Session["Admin"] == true && Session["Username"] != null)
+            {
+                return View();
+            }
+            return Content("You don't have admin permissions to access this function");
         }
         [HttpPost]
         public ActionResult DeleteCustomer(int customerId)
@@ -78,75 +100,75 @@ namespace StationeryWebApp.Controllers
 
 
         // GET: Admin/Details
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+        //public ActionResult Details(int id)
+        //{
+        //    return View();
+        //}
 
-        // GET: Admin/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
+        //// GET: Admin/Create
+        //public ActionResult Create()
+        //{
+        //    return View();
+        //}
 
-        // POST: Admin/Create
-        [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
+        //// POST: Admin/Create
+        //[HttpPost]
+        //public ActionResult Create(FormCollection collection)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add insert logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
 
-        // GET: Admin/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
+        //// GET: Admin/Edit/5
+        //public ActionResult Edit(int id)
+        //{
+        //    return View();
+        //}
 
-        // POST: Admin/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
+        //// POST: Admin/Edit/5
+        //[HttpPost]
+        //public ActionResult Edit(int id, FormCollection collection)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add update logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
 
-        // GET: Admin/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
+        //// GET: Admin/Delete/5
+        //public ActionResult Delete(int id)
+        //{
+        //    return View();
+        //}
 
-        // POST: Admin/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
+        //// POST: Admin/Delete/5
+        //[HttpPost]
+        //public ActionResult Delete(int id, FormCollection collection)
+        //{
+        //    try
+        //    {
+        //        // TODO: Add delete logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
     }
 }
