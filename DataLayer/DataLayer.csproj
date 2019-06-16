@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{171862E9-1C83-42C7-B47B-93591460991F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataLayer</RootNamespace>
+    <AssemblyName>DataLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Migrations\201905291647241_InitialModel.cs" />
+    <Compile Include="Migrations\201905291647241_InitialModel.Designer.cs">
+      <DependentUpon>201905291647241_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905311200393_SecondMgrationi.cs" />
+    <Compile Include="Migrations\201905311200393_SecondMgrationi.Designer.cs">
+      <DependentUpon>201905311200393_SecondMgrationi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906101357447_AddedLoginDetails.cs" />
+    <Compile Include="Migrations\201906101357447_AddedLoginDetails.Designer.cs">
+      <DependentUpon>201906101357447_AddedLoginDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906101558462_AddentittiesToTheDatabase.cs" />
+    <Compile Include="Migrations\201906101558462_AddentittiesToTheDatabase.Designer.cs">
+      <DependentUpon>201906101558462_AddentittiesToTheDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906121510408_Username.cs" />
+    <Compile Include="Migrations\201906121510408_Username.Designer.cs">
+      <DependentUpon>201906121510408_Username.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906130832387_dbCorrection.cs" />
+    <Compile Include="Migrations\201906130832387_dbCorrection.Designer.cs">
+      <DependentUpon>201906130832387_dbCorrection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906131043364_AddingErrorMessagesToCustomer.cs" />
+    <Compile Include="Migrations\201906131043364_AddingErrorMessagesToCustomer.Designer.cs">
+      <DependentUpon>201906131043364_AddingErrorMessagesToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="StationeryDbContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stationery\Stationery.csproj">
+      <Project>{ea9c92b3-0b26-4fac-9ac0-624520a0924e}</Project>
+      <Name>Stationery</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201905291647241_InitialModel.resx">
+      <DependentUpon>201905291647241_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905311200393_SecondMgrationi.resx">
+      <DependentUpon>201905311200393_SecondMgrationi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906101357447_AddedLoginDetails.resx">
+      <DependentUpon>201906101357447_AddedLoginDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906101558462_AddentittiesToTheDatabase.resx">
+      <DependentUpon>201906101558462_AddentittiesToTheDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906121510408_Username.resx">
+      <DependentUpon>201906121510408_Username.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906130832387_dbCorrection.resx">
+      <DependentUpon>201906130832387_dbCorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906131043364_AddingErrorMessagesToCustomer.resx">
+      <DependentUpon>201906131043364_AddingErrorMessagesToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
