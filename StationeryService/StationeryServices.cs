@@ -112,14 +112,6 @@ namespace StationeryService
                 
            ).First();
 
-            //if (customer.OrderList == null)
-            //{
-            //    customer.OrderList = list.Add(new Order()
-            //    {
-            //        OrderId = 0
-
-            //    });
-            //}
 
             return customer;
         }

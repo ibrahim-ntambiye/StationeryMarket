@@ -43,9 +43,15 @@ namespace StationeryWebApp.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetAllMarkers(int id)
+        public ActionResult GetAllMarkers()
         {
-            return View();
+            if (Session["Username"] != null && (bool)Session["Admin"])
+            {
+                List<Marker> listOfMarkers = service.GetAllMarkers();
+
+                return View("", listOfMarkers);
+            }
+            return Content("You don't have the right permissions to access this function.");
         }
 
         [HttpGet]
@@ -54,7 +60,23 @@ namespace StationeryWebApp.Controllers
             var marker = service.ViewMarker(markerId);
             return View("SingleMarkerDetails", marker);
         }
+        //[HttpGet]
+        //public ActionResult DeleteMarkerFromDb()
+        //{
+           
+        //    return View();
+        //}
 
+        [HttpGet]
+        public ActionResult DeleteMarkerFromDb(int markerId)
+        {
+            if (Session["Username"] != null && (bool)Session["Admin"])
+            {
+                service.DeleteMarker(markerId);
+                return RedirectToAction("GetAllMarkers");
+            }
+            return Content("You don't have the right permissions to access this function.");
+        }
         // GET: Markers/Create
         public ActionResult Create()
         {

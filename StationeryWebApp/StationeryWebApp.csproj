@@ -248,6 +248,8 @@
     <Content Include="Views\Shared\SingleMarkerDetails.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Markers\ViewMarkerSuccessfull .cshtml" />
+    <Content Include="Views\Markers\ListOfMarkersFromDb.cshtml" />
+    <Content Include="Views\Markers\GetAllMarkers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Stationery.Marker>
+
+@{
+    ViewBag.Title = "GetAllMarkers";
+}
+
+<h2>GetAllCustomers</h2>
+
+<p>
+    @Html.ActionLink("Markers", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>Colour</th>
+        <th>Brand</th>
+        <th>Permanent</th>
+        <th>ImageFileName</th>
+        <th>Price</th>
+       
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Colour)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Brand)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Permanent)
+    </td>
+    <td>
+    
+        <img class="menu-image img-responsive" src="~/Markers/MarkerImages/@item.ImageFileName" />
+    </td>
+   
+    <td>
+        @Html.DisplayFor(modelItem => item.Price)
+    </td>
+    <td>
+        @Html.ActionLink("Delete", "DeleteMarkerFromDb", new { markerId = item.MarkerId })
+
+    </td>
+
+</tr>
+
+        }
+
+    </table>
