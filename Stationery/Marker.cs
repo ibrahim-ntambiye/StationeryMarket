@@ -23,5 +23,8 @@ namespace Stationery
         public string ImageFileName { get; set; }
         public ICollection<Order> Orders { get; set; }
         public decimal Price { get; set; }
+        [Range(0, 1000)]
+        [Required]
+        public int AvailableInStock { get; set; }
     }
 }

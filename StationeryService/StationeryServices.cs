@@ -42,6 +42,7 @@ namespace StationeryService
             return marker;
             
         }
+
         public Marker ViewMarker(int markerId)
         {
             Marker marker = db.Markers.Find(markerId);

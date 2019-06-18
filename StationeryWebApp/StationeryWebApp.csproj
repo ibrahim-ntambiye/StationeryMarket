@@ -171,6 +171,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Basket.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -250,6 +251,9 @@
     <Content Include="Views\Markers\ViewMarkerSuccessfull .cshtml" />
     <Content Include="Views\Markers\ListOfMarkersFromDb.cshtml" />
     <Content Include="Views\Markers\GetAllMarkers.cshtml" />
+    <Content Include="Views\Markers\AddToBasket.cshtml" />
+    <Content Include="Views\Markers\Basket.cshtml" />
+    <Content Include="Views\Markers\ViewBasket.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

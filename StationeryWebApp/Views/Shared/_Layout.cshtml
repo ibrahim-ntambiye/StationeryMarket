@@ -34,6 +34,11 @@
                         <li class="navbar-right">@Html.ActionLink("Logout", "Logout", "Customers")</li>
                         <li>@Html.ActionLink("Update Your Details", "UpdateCustomerInformation", "Customers")</li>
 
+                        if (Session["Basket"] != null)
+                        {
+                            <li>@Html.ActionLink("View Basket", "ViewBasket", "Markers")</li>
+                        }
+
                         if ((bool)Session["Admin"])
                         {
                             <li>@Html.ActionLink("All Customers", "GetAllCustomers", "Admin")</li>

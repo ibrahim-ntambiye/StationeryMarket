@@ -1,0 +1,38 @@
+﻿@model (Dictionary<int, int>)
+
+@{
+    ViewBag.Title = "AddToBasket";
+}
+
+<h2>Add Item To Basket</h2>
+
+<p>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+
+</p>
+<
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.MarkerId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Date)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CustomerId)
+    </td>
+   
+    <td>
+        @Html.ActionLink("Delete", "DeleteMarkerFromDb", new { markerId = item.MarkerId })
+
+    </td>
+</tr>
+}
+
+

@@ -272,7 +272,10 @@ namespace StationeryWebApp.Controllers
         }
 
         //
-        // POST: /Account/ExternalLogin
+        // POST: /Account/External
+
+
+
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]

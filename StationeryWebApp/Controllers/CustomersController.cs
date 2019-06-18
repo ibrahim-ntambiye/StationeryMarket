@@ -153,6 +153,7 @@ namespace StationeryWebApp.Controllers
         public ActionResult Logout()
         {
             Session["Username"] = null;
+            Session["Basket"] = null;
             return RedirectToAction("Index", "Home");
         }
     }

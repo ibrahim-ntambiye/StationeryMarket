@@ -46,7 +46,19 @@
     </dl>
     <img class="menu-image img-responsive" src="~/Markers/MarkerImages/@Model.ImageFileName" />
 </div>
+@using (Html.BeginForm("AddToBasket", "Markers", FormMethod.Post,
+    new { enctype = "multipart/form-data" })) { 
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.MarkerId }) |
-    @Html.ActionLink("Back to List", "Index")
+    <div class="form-group">
+        <input id="quantity" title="Upload product image" type="number" max="10" min="1"  name="quantity" />
+
+    </div>
+    @Html.HiddenFor(c => c.MarkerId, new { @name="markerId"})
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input id="AddToBasket" title="Upload product image" type="submit" value="Add to basket" class=" btn btn-default" name="AddToBasket" />
+        </div>
+    </div>
+
 </p>
+}
