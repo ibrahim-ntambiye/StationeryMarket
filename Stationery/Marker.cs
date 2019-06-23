@@ -21,7 +21,7 @@ namespace Stationery
         public string Brand { get; set; }
         public bool Permanent { get; set; }
         public string ImageFileName { get; set; }
-        public ICollection<Order> Orders { get; set; }
+      //  public ICollection<Order> Orders { get; set; }
         public decimal Price { get; set; }
         [Range(0, 1000)]
         [Required]

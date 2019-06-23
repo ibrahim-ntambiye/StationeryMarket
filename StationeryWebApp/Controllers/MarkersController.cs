@@ -89,6 +89,7 @@ namespace StationeryWebApp.Controllers
         [HttpPost]
         public ActionResult AddToBasket(int markerId, int quantity)
         {
+            if(quantity == 0){ return Content("Please enter a valid quantity"); } 
             if (Session["Username"] != null)
             {
                 var marker = service.ViewMarker(markerId);
@@ -119,6 +120,7 @@ namespace StationeryWebApp.Controllers
 
                         var item = basket.Find(a => a.ItemId == markerId);
                         item.Quantity += quantity;
+                        item.Price *= item.Quantity;
 
                     }
 

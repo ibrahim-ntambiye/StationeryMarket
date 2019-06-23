@@ -21,6 +21,7 @@
     @if ((bool)Session["Admin"] == false)
     {
         @Html.HiddenFor(model => model.IsAdmin)
+
     }
     else
     {

@@ -50,7 +50,7 @@
     new { enctype = "multipart/form-data" })) { 
 <p>
     <div class="form-group">
-        <input id="quantity" title="Upload product image" type="number" max="10" min="1"  name="quantity" />
+        <input id="quantity" title="Upload product image" placeholder="1" type="number" max="10" min="1"  name="quantity" />
 
     </div>
     @Html.HiddenFor(c => c.MarkerId, new { @name="markerId"})
