@@ -1,0 +1,52 @@
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\Stationery.dll
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\Stationery.pdb
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\Stationery.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.Migrations.InitialModel.resources
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.Migrations.SecondMgrationi.resources
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.Migrations.AddedLoginDetails.resources
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.Migrations.AddentittiesToTheDatabase.resources
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.Migrations.Username.resources
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.Migrations.dbCorrection.resources
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.Migrations.AddingErrorMessagesToCustomer.resources
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\User\Documents\FDM\finalproject-master\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\Stationery.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\Stationery.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\Stationery.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.InitialModel.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.SecondMgrationi.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.AddedLoginDetails.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.AddentittiesToTheDatabase.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.Username.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.dbCorrection.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.AddingErrorMessagesToCustomer.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.Complete.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.AddingMarkerImage.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.AddAvailableInStockProperty.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.MarkersUpdateProperty.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.MarkerUpdateProperty1.resources
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\DataLayer\obj\Debug\DataLayer.Migrations.FixingBugs.resources

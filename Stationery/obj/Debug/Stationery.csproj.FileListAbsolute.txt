@@ -1,0 +1,13 @@
+C:\Users\User\Documents\FDM\finalproject-master\Stationery\bin\Debug\Stationery.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\Stationery\bin\Debug\Stationery.dll
+C:\Users\User\Documents\FDM\finalproject-master\Stationery\bin\Debug\Stationery.pdb
+C:\Users\User\Documents\FDM\finalproject-master\Stationery\obj\Debug\Stationery.csprojAssemblyReference.cache
+C:\Users\User\Documents\FDM\finalproject-master\Stationery\obj\Debug\Stationery.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FDM\finalproject-master\Stationery\obj\Debug\Stationery.dll
+C:\Users\User\Documents\FDM\finalproject-master\Stationery\obj\Debug\Stationery.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\Stationery\bin\Debug\Stationery.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\Stationery\bin\Debug\Stationery.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\Stationery\bin\Debug\Stationery.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\Stationery\obj\Debug\Stationery.csproj.CoreCompileInputs.cache
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\Stationery\obj\Debug\Stationery.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\Stationery\obj\Debug\Stationery.pdb

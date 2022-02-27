@@ -1,0 +1,36 @@
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\StationeryService.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\StationeryService.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\StationeryService.pdb
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\DataLayer.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\Stationery.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\DataLayer.pdb
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\DataLayer.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\Stationery.pdb
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\Stationery.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\obj\Debug\StationeryService.csprojAssemblyReference.cache
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\obj\Debug\StationeryService.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\obj\Debug\StationeryService.csproj.CopyComplete
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\obj\Debug\StationeryService.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryService\obj\Debug\StationeryService.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\StationeryService.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\StationeryService.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\StationeryService.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\DataLayer.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\EntityFramework.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\Stationery.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\DataLayer.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\DataLayer.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\Stationery.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\Stationery.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\EntityFramework.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\obj\Debug\StationeryService.csprojAssemblyReference.cache
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\obj\Debug\StationeryService.csproj.CoreCompileInputs.cache
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\obj\Debug\StationeryService.csproj.CopyComplete
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\obj\Debug\StationeryService.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryService\obj\Debug\StationeryService.pdb

@@ -1,0 +1,132 @@
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\StationeryWebApp.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\StationeryWebApp.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\StationeryWebApp.pdb
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Antlr3.Runtime.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\EntityFramework.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Owin.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Stationery.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\StationeryService.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.Helpers.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.Mvc.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.Optimization.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.Razor.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.WebPages.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\WebGrease.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\DataLayer.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\StationeryService.pdb
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\StationeryService.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Stationery.pdb
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Stationery.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.Helpers.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.Mvc.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.Optimization.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.Razor.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.WebPages.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\EntityFramework.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\DataLayer.pdb
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\bin\DataLayer.dll.config
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\obj\Debug\StationeryWebApp.csprojAssemblyReference.cache
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\obj\Debug\StationeryWebApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\obj\Debug\StationeryWebApp.csproj.CopyComplete
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\obj\Debug\StationeryWebApp.dll
+C:\Users\User\Documents\FDM\finalproject-master\StationeryWebApp\obj\Debug\StationeryWebApp.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\StationeryWebApp.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\StationeryWebApp.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\StationeryWebApp.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Antlr3.Runtime.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\EntityFramework.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Newtonsoft.Json.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Owin.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Stationery.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\StationeryService.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.Helpers.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.Mvc.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.Optimization.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.Razor.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.WebPages.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\WebGrease.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\DataLayer.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\StationeryService.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\StationeryService.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Stationery.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Stationery.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.Helpers.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.Mvc.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.Optimization.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.Razor.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.WebPages.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Newtonsoft.Json.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\EntityFramework.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\DataLayer.pdb
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\bin\DataLayer.dll.config
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\obj\Debug\StationeryWebApp.csprojAssemblyReference.cache
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\obj\Debug\StationeryWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\obj\Debug\StationeryWebApp.csproj.CopyComplete
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\obj\Debug\StationeryWebApp.dll
+C:\Users\Mr Ntambiye\Documents\Final week project\final-week-project\StationeryWebApp\obj\Debug\StationeryWebApp.pdb
